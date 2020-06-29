@@ -1,0 +1,9 @@
+.footer {
+    background-color: teal;
+    min-height: 150px;
+}
+.footer__paragraph {
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 10px;
+}

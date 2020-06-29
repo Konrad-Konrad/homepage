@@ -1,0 +1,41 @@
+.table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.table__cell {
+  text-align: center;
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: teal;
+  border-width: 1px;
+  padding: 10px 5px;
+}
+
+.table__cell--header {
+  font-weight: lighter;
+  background-color: linen;
+}
+
+.table__cell--row {
+  background-color: white;
+}
+
+.table__cell--row:nth-child(even) {
+  background: lightyellow;
+}
+
+.table__cell--row:hover {
+  background: pink;
+}
+
+.table__container {
+  overflow-x: auto;
+}
+
+.table__caption {
+  background-color: teal;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 10px;
+}

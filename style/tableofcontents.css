@@ -1,0 +1,16 @@
+.tableOfContents {
+    list-style-type: none;
+  }
+  .tableOfContents__listItem {
+    text-decoration-line: none;
+    color: teal;
+    font-size: 18px;
+  }
+  .tableOfContents__listItem:focus {
+    outline: 1px solid currentColor;
+  }
+  
+  .tableOfContents__listItem:hover {
+    color: whitesmoke;
+    background-color: teal;
+  }

@@ -1,0 +1,17 @@
+.header {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 15px;
+}
+
+.header__logo {
+  font-size: 50px;
+  color: teal;
+  font-style: oblique;
+  text-shadow: 5px 0px 5px gray;
+  letter-spacing: 35px;
+}
+.header__menu {
+  list-style-type: none;
+  text-decoration-line: none;
+}

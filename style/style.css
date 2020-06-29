@@ -1,0 +1,39 @@
+
+html
+{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before
+{
+    box-sizing: inherit;
+}
+.body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px 25px; 
+    line-height: 1.5;
+    box-shadow: 0px 1px 5px 5px grey;
+}
+
+.body__background {
+    background-color: whitesmoke;
+}
+.body__background-change {
+    background-color: rgb(255, 183, 183);
+}
+
+.buttonHideAdvertising {
+    background-color: gold;
+}
+
+.button2 {
+    background-color: gold;
+}
+
+
+    
+
+
