@@ -1,8 +1,4 @@
 {
-    function HelloMessage() {
-        console.log("Hello my friend")
-    }
-    HelloMessage();
     const HideAdvertising = () => {
         const button = document.querySelector(".buttonHideAdvertising")
         const reklama = document.querySelector(".reklama")
@@ -25,6 +21,9 @@
         button.addEventListener("click", HideAdvertising);
        
     };
-
+    const HelloMessage = () => {
+        console.log("Hello my friend")
+    };
+HelloMessage ();
     init();
 }
