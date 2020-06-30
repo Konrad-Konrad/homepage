@@ -18,9 +18,13 @@
             zmienTlo.innerText = "Zmień tło na różowe";
     };
 
-    const zmienTlo = document.querySelector(".button2");
-    zmienTlo.addEventListener("click", toogleBackground);
+    const init = () => {
+        const zmienTlo = document.querySelector(".button2");
+        zmienTlo.addEventListener("click", toogleBackground);
+        const button = document.querySelector(".buttonHideAdvertising");
+        button.addEventListener("click", HideAdvertising);
+       
+    };
 
-    const button = document.querySelector(".buttonHideAdvertising");
-    button.addEventListener("click", HideAdvertising);
+    init();
 }
