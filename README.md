@@ -13,6 +13,6 @@ The very first HTML website with BEM
 - table with hoover on table cells, caption and overflow-x: auto
 - hide advertising and toogle background buttons with javascript addEventListener("click") atribute
 
-`Webstie was tested with Facebook sharing debuger and HTML validator`
+`Website was tested with Facebook sharing debuger and HTML validator`
 
 Visit online: https://konrad-konrad.github.io/homepage/
